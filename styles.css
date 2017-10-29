@@ -1,4 +1,42 @@
+body {
+  font-family: 'Open Sans';
+}
+
 #wrapper {
   margin: 0 auto;
   width: 750px;
+}
+
+input {
+  padding: .5rem 1rem;
+  border: 1px solid #ccc;
+}
+
+button.primary {
+  background: lightblue;
+  border: 0;
+  font-weight: bold;
+  padding: .5rem 1rem;
+}
+
+.wordEntry {
+  display: flex;
+  align-items: middle;
+}
+
+.listenBtn {
+  padding: 0;
+  margin-left: .5rem;
+  border: 0;
+  background: none;
+}
+
+.listenImg {
+  vertical-align: middle;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #eee;
 }
